@@ -1,6 +1,6 @@
 # Quizzerole
 
-![](icon.png)
+<img src="https://github.com/zyugyzarc/quizzerole/blob/main/icon.png?raw=true" width="150">
 
 This project is a demonstration of my custom made ui-framework for javascript, inspired by react's component-like architecture.
 
@@ -119,7 +119,8 @@ class TodoList extends Component{
 		this.state.tasks += 1
 	}
 }
-
+```
+```js
 class Todo extends Component{
 
 	constructor(dom, parent){
