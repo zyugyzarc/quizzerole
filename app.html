@@ -1,0 +1,57 @@
+<html>
+<head><title> Quizserole </title><style>
+* {
+	font-family: sans-serif;
+	color: #fff;
+	background-color: #111;
+}
+input{
+	border: 2px solid #555;
+	background-color: #222;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+button{
+	background-color: #333;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+}
+
+button:hover{
+	background-color: #555;
+}
+
+button[disabled]{
+	color: #888;
+	cursor: not-allowed;
+}
+
+button[disabled]:hover{
+	background-color: #333;
+}
+
+span{
+	background: #0000;
+}
+
+#dice span{
+	background: #fff;
+	color: #000;
+}
+
+</style></head>
+<body>
+
+	<div component=MainBox args=[]>
+	
+	<script src=component.js></script>
+	<script src=app.js></script>
+	<script> 
+
+		componentsInit()
+
+	</script>
+</body>
+</html>
